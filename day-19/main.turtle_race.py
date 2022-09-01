@@ -41,7 +41,7 @@ while race_on:
                 refree.goto(-300,300)
                 refree.write(f"Winner: {turtle.color()[0]}",font=('Arial', 30, 'normal'))
                 refree.goto(-300,270)
-                if predicted_winner == turtle.color():
+                if predicted_winner == turtle.color()[0]:
                     refree.write(f"You guessed {predicted_winner}, well done!",font=('Arial', 30, 'normal'))
                 else:
                     refree.write(f"You guessed {predicted_winner}, better luck next time!",font=('Arial', 30, 'normal'))
